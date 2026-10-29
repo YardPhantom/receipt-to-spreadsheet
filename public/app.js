@@ -63,5 +63,4 @@ const ta = document.getElementById('in');
 document.getElementById('go').onclick = () => render(parse(ta.value));
 document.getElementById('sample').onclick = () => { ta.value = SAMPLE; render(parse(SAMPLE)); };
 document.getElementById('file').onchange = async e => { const f = e.target.files[0]; if (f) { ta.value = await extractText(f); render(parse(ta.value)); } };
-document.getElementById('dl').onclick = () => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([window._csv || ''], { type: 'text/csv' })); a.download = 'receipt.csv'; a.click(); };
 if (location.search.includes('demo')) document.getElementById('sample').click();
