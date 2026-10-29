@@ -7,3 +7,11 @@ ul{margin:0;padding-left:20px}li{margin:4px 0}.tag{display:inline-block;font-siz
 .high{background:#7f1d1d;color:#fecaca}.med{background:#78350f;color:#fde68a}.low{background:#14532d;color:#bbf7d0}
 table{width:100%;border-collapse:collapse;font-size:13px}td,th{border-bottom:1px solid #334155;padding:6px;text-align:left}td.n{text-align:right}
 footer{padding:10px 28px;color:#64748b;font-size:12px}footer a{color:#a5b4fc}
+.toolbar{margin-top:6px}
+html[data-theme=light] body{background:#f8fafc;color:#0f172a}
+html[data-theme=light] header,html[data-theme=light] .card{background:#fff;border-color:#cbd5e1}
+html[data-theme=light] header p,html[data-theme=light] footer{color:#475569}
+html[data-theme=light] textarea{background:#fff;color:#0f172a;border-color:#cbd5e1}
+html[data-theme=light] button.alt{background:#e2e8f0;color:#0f172a}
+html[data-theme=light] .card h2,html[data-theme=light] footer a{color:#4f46e5}
+html[data-theme=light] td,html[data-theme=light] th{border-color:#e2e8f0}
