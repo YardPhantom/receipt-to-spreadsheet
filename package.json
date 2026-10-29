@@ -1,0 +1,1 @@
+{ "name": "receipt-to-spreadsheet", "version": "1.0.0", "description": "Upload a text/PDF receipt or paste OCR text and get CSV line items — client-side heuristic.", "license": "MIT", "author": "Trevor Heshka (https://trevorheshka.com)", "homepage": "https://trevorheshka.com", "scripts": { "start": "node server.js" }, "engines": { "node": ">=16" } }
